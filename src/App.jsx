@@ -340,7 +340,8 @@ function Hero() {
       </div>
       <div className="hero-in">
         <div className="avatar">
-          <img src="/skye.jpg" alt="Skye Xi" />
+          {/* <img src="/skye.jpg" alt="Skye Xi" /> */}
+          <img src={import.meta.env.BASE_URL + "skye.jpg"} alt="Skye Xi" />
         </div>
         <p className="h-ey">NYU Shanghai · Class of 2027</p>
         <h1 className="h-nm">Skye <em>Ruiyun</em> Xi</h1>
